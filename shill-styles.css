@@ -1243,17 +1243,267 @@
     color: var(--text-light);
 }
 
+/* Mobile Responsive Styles */
 @media (max-width: 768px) {
+    /* Hero Section */
+    .page-title {
+        font-size: 2rem;
+    }
+    
+    .page-subtitle {
+        font-size: 1.2rem;
+        padding: 0 1rem;
+    }
+    
+    /* Reward Pool Info */
+    .reward-pool-info {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    
+    .pool-card {
+        padding: 1.5rem;
+    }
+    
+    .pool-amount {
+        font-size: 1.5rem;
+    }
+    
+    /* Quest Tabs */
     .quest-tabs {
         flex-direction: column;
         align-items: stretch;
     }
     
+    /* Tier Cards */
     .tier-cards {
         grid-template-columns: 1fr;
     }
     
+    /* Stats Grid */
     .stats-grid {
         grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+    
+    .stat-box {
+        padding: 1.5rem;
+    }
+    
+    .stat-value {
+        font-size: 1.5rem;
+    }
+    
+    /* Requirements Cards */
+    .requirement-cards {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    
+    /* Task Submission */
+    .task-submission-section {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    
+    /* Reward Tiers Grid */
+    .reward-tiers-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    /* Tasks Grid */
+    .tasks-grid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    
+    /* Info Cards */
+    .info-cards {
+        grid-template-columns: 1fr;
+    }
+    
+    /* Info Grid */
+    .info-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    /* Part B Highlight - CRITICAL FIX */
+    .part-b-highlight {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    
+    .highlight-card {
+        padding: 1.5rem;
+    }
+    
+    .big-reward {
+        font-size: 2rem;
+    }
+    
+    /* CTA Info */
+    .cta-info {
+        grid-template-columns: 1fr;
+    }
+    
+    /* Staking Options */
+    .staking-options {
+        grid-template-columns: 1fr;
+    }
+    
+    /* Staking Info Grid */
+    .staking-info-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    /* Staking Notice */
+    .staking-notice {
+        flex-direction: column;
+        padding: 1.5rem;
+        text-align: center;
+    }
+    
+    .staking-notice .notice-icon {
+        font-size: 2rem;
+    }
+    
+    /* Buttons */
+    .cta-buttons {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+    .shill-buttons {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+    /* Important Notice */
+    .important-notice {
+        padding: 1rem;
+    }
+    
+    .notice-icon {
+        font-size: 1.5rem;
+    }
+    
+    /* Part B Claim */
+    .part-b-claim {
+        padding: 1.5rem;
+    }
+    
+    .claim-part-b {
+        font-size: 1rem;
+        padding: 1rem;
+    }
+}
+
+/* Extra Small Mobile (max-width: 480px) */
+@media (max-width: 480px) {
+    /* Further reduce font sizes */
+    .page-title {
+        font-size: 1.8rem;
+    }
+    
+    .page-subtitle {
+        font-size: 1rem;
+    }
+    
+    /* Stats Grid - Single Column on XS */
+    .stats-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    /* Pool Cards */
+    .pool-card {
+        padding: 1rem;
+    }
+    
+    .pool-amount {
+        font-size: 1.2rem;
+    }
+    
+    /* Section Titles */
+    .section-title {
+        font-size: 1.5rem;
+    }
+    
+    /* Quest Cards */
+    .quest-card {
+        padding: 1.5rem;
+    }
+    
+    .quest-header h3 {
+        font-size: 1.1rem;
+    }
+    
+    .quest-reward {
+        font-size: 1rem;
+    }
+    
+    /* Tier Cards */
+    .tier-header h3 {
+        font-size: 1.1rem;
+    }
+    
+    .tier-reward {
+        font-size: 1.2rem;
+    }
+    
+    /* Info Cards */
+    .info-card {
+        padding: 1.5rem;
+    }
+    
+    .info-card h3 {
+        font-size: 1.1rem;
+    }
+    
+    /* Big Reward */
+    .big-reward {
+        font-size: 1.8rem;
+    }
+    
+    /* Requirement Items */
+    .requirement-item {
+        flex-direction: column;
+        text-align: center;
+        gap: 0.5rem;
+    }
+    
+    /* Spots Counter */
+    .spots-counter {
+        flex-direction: column;
+    }
+    
+    .spots-number {
+        font-size: 1.5rem;
+    }
+    
+    /* Container Padding */
+    .container {
+        padding: 0 1rem;
+    }
+    
+    /* Section Padding */
+    .requirements-section,
+    .quest-section,
+    .tier-section,
+    .stats-section,
+    .staking-section {
+        padding: 3rem 0;
+    }
+    
+    .shill-hero {
+        padding: 6rem 0 3rem;
+    }
+    
+    /* CTA Section */
+    .cta-section {
+        padding: 3rem 0;
+    }
+    
+    .cta-section h2 {
+        font-size: 1.8rem;
     }
 }
